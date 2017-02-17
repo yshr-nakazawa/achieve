@@ -21,13 +21,14 @@ gem 'devise'
 gem 'faker'
 group :development do
   gem 'letter_opener_web'
+  gem 'pry-rails'
+  gem 'better_errors'
+  gem 'binding_of_caller'
   #gem 'dotenv-rails'
 end
 gem 'rails_admin'
 gem 'cancan'
 group :development, :test do
-  gem 'pry-rails'
-  gem 'better_errors'
   gem 'capistrano', '3.6.0'
   gem 'capistrano-bundler'
   gem 'capistrano-rails'
