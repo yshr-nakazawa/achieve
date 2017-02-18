@@ -13,6 +13,8 @@ group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
   gem 'spring'
+  gem 'rspec-rails'
+  gem 'factory_girl_rails'
 end
 gem 'twitter-bootstrap-rails'
 gem 'jquery-turbolinks'
@@ -47,3 +49,9 @@ gem 'fog'
 gem 'dotenv-rails'
 gem 'unicorn'
 gem 'therubyracer', platforms: :ruby
+group :test do
+  gem 'capybara'
+  gem 'database_cleaner'
+  gem 'launchy'
+  gem 'selenium-webdriver'
+end
